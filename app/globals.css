@@ -1,0 +1,70 @@
+:root {
+  --dark-color: #181e1e;
+  --white-color: #ffffff;
+  --light-color: #fafafa;
+  --pink-color: #ff6864;
+  --yellow-color: #dbff00;
+  --gray-color: #9ba6bc;
+}
+
+*,
+*::after,
+*::before {
+box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat_alternates";
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* .wrapper {
+  margin: 0 auto;
+} */
+
+.wrapper {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+a {
+  color: var(--dark-color);
+  text-decoration: none;
+}
+
+.poppins {
+  font-family: var(--font-poppins);
+}
+
+.montserrat_alternates {
+  font-family: var(--font-montserrat_alternates);
+}
+
+.btn {
+  border-radius: 7.5rem;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 18px;
+  outline: none;
+  transition: all 400ms ease;
+}
+
+.btn:hover {
+  transform: rotateZ(-6deg);
+}
+
+.yellow {
+  background: var(--yellow-color);
+}
+
+@media (max-width: 720px) {
+  .wrapper {
+    width: 100%;
+    padding: 0px 10px;
+  }
+}
