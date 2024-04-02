@@ -7,7 +7,7 @@ const Footer = () => {
             <div className="wrapper">
                 <div className="content-container">
                     <div className="text">
-                        <span>Don't miss out!</span>
+                        <span>Don&apos;t miss out!</span>
 
                          <div className="text-content">
                             <p>People on stereo are the first to talk about it</p>
@@ -15,7 +15,7 @@ const Footer = () => {
                     </div>
                     <div className="text">
                     <button className="btn pink">
-                        <Link href={"/"}>Let's go!</Link>
+                        <Link href={"/"}>Let&apos;s go!</Link>
                     </button>
                     </div>
                 </div>
