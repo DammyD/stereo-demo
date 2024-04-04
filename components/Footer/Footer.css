@@ -2,6 +2,7 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+   
 }
 
 footer .content-container {
@@ -13,14 +14,14 @@ footer .content-container {
 }
 
 .text span {
-    font-family: "montserrat_alternates";
+    font-family: "chewy", system-ui;
     font-size: 32px;
     line-height: 1;
-    font-weight: 800;
+    font-weight: 600;
 }
 
 .text p {
-    font-family: "montserrat_alternates";
+    font-family: "chewy", system-ui;
     font-size: 20px;
     line-height: 18px;
     font-weight: 400;
@@ -32,8 +33,9 @@ footer .content-container {
     padding: 20px 30px;
     width: 100%;
     display: inline-block;
-    /* margin-bottom: 35px; */
     border: none;
+    font-size: 24px;
+    font-family: "chewy", system-ui;
 }
 
 .content-container .btn.pink a{

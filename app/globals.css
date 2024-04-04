@@ -16,16 +16,11 @@ box-sizing: border-box;
 body {
   margin: 0;
   padding: 0;
-  font-family: "montserrat_alternates";
 }
 
 html {
   scroll-behavior: smooth;
 }
-
-/* .wrapper {
-  margin: 0 auto;
-} */
 
 .wrapper {
   max-width: 1024px;
@@ -37,12 +32,8 @@ a {
   text-decoration: none;
 }
 
-.poppins {
-  font-family: var(--font-poppins);
-}
-
-.montserrat_alternates {
-  font-family: var(--font-montserrat_alternates);
+.chewy{
+  font-family: var(--font-chewy);
 }
 
 .btn {

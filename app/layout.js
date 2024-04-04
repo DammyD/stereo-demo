@@ -1,10 +1,9 @@
-import { Montserrat_Alternates, Poppins } from "next/font/google";
+import { Chewy } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar/Navbar";
 import Footer from "@/components/Footer/Footer";
 
-const montserrat_alternates = Montserrat_Alternates({ subsets: ["latin"], weight: ["400", "700"], variable: "--font-montserrat_alternates" });
-const poppins = Poppins({ subsets: ["latin"], weight: ["400", "700", "800"], variable: "--font-poppins" });
+const chewy = Chewy({ subsets: ["latin"], weight: ["400"], variable: "--font-chewy" });
 
 export const metadata = {
   title: "Create Next App",
@@ -14,7 +13,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${montserrat_alternates} ${poppins}`.className}>
+      <body className={`${chewy}`.className}>
         <Navbar />
         {children}
         <Footer />
