@@ -50,7 +50,7 @@ const Navbar = () => {
                        <Link href="/"><Image src={qrcode} alt={qrcode} className="barcode" /></Link>
                         <div className="barcode-overlay">
                             <Image src={qrcode} alt={qrcode} className="overlay-qrcode"/>
-                            <span className="overlay-text">Scan to download Stereo</span>
+                            <span className="overlay-text">Scan to download <br/> Stereo</span>
                         </div>
                     </div>
                 </div>

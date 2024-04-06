@@ -41,7 +41,7 @@ const Mobile = () => {
 
                     <div className="mobile-tablet-menu-container-footer right">
                         <span>English</span>
-                        &copy; 2024 Stereo
+                        <span>&copy; 2024 Stereo</span>
                     </div>
                 </div>
             </div>
