@@ -185,17 +185,14 @@ export const trendingTopics = [
   export const trademarkData = [
     {
         id: 1,
-        text: "be on stereo, don't be on here",
         image: "../assets/trademark.svg"
     },
     {
         id: 2,
-        text: "be on stereo, don't be on here",
         image: "../assets/trademark.svg"
     },
     {
         id: 3,
-        text: "be on stereo, don't be on here",
         image: "../assets/trademark.svg"
     },
   ]

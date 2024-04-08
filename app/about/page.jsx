@@ -213,7 +213,7 @@ const About = () => {
                             <div key={trademark.id} className="avatar-item">
                                 <div className="avatar-container">
                                     <div className="avatar-container-text">
-                                    <p>{trademark.text}</p>
+                                    <p>be on stereo, don&lsquo;t be on here</p>
                                     </div>
                                     <span>
                                         <Image className="avatar-image" src={`/assets/${trademark.image}`} width={80} height={80} /></span>
