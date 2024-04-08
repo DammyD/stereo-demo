@@ -19,7 +19,6 @@ export default function Home() {
           <div className="trending-today">
             <div className="left" >
               <div className="image-container">
-
                 {trendingToday.map(trends => (
                   <div key={trends.id} className="border" style={{ backgroundImage: `url(${trends.backdrop})` }}>
                     <div className="inner-content">
@@ -56,6 +55,7 @@ export default function Home() {
                         </div>
                       </div>
                     </div>
+
 
                     <div className="followers">
                       <span> <Image src={`/assets/${trends.image}`} alt={trends.name} width={50} height={50} /></span>

@@ -101,3 +101,101 @@ export const trendingTopics = [
         share: "share"
     },
   ]
+
+  export const avatarData = [
+    {
+        id: 1,
+        image: "../assets/avatar1.png"
+    },
+    {
+        id: 2,
+        image: "../assets/avatar2.png"
+    },
+    {
+        id: 3,
+        image: "../assets/avatar3.png"
+    },
+    {
+        id: 4,
+        image: "../assets/avatar4.png"
+    },
+    {
+        id: 5,
+        image: "../assets/avatar5.png"
+    },
+    {
+        id: 6,
+        image: "../assets/avatar6.png"
+    },
+    {
+        id: 7,
+        image: "../assets/avatar7.png"
+    },
+    {
+        id: 8,
+        image: "../assets/avatar8.png"
+    },
+    {
+        id: 9,
+        image: "../assets/avatar9.png"
+    },
+    {
+        id: 10,
+        image: "../assets/avatar10.png"
+    },
+    {
+        id: 11,
+        image: "../assets/avatar11.png"
+    },
+    {
+        id: 12,
+        image: "../assets/avatar12.png"
+    },
+    {
+        id: 13,
+        image: "../assets/avatar13.png"
+    },
+    {
+        id: 14,
+        image: "../assets/avatar14.png"
+    },
+    {
+        id: 15,
+        image: "../assets/avatar15.png"
+    },
+    {
+        id: 16,
+        image: "../assets/avatar16.png"
+    },
+    {
+        id: 17,
+        image: "../assets/avatar17.png"
+    },
+    {
+        id: 18,
+        image: "../assets/avatar18.png"
+    },
+    {
+        id: 19,
+        image: "../assets/avatar19.png"
+    },
+
+  ]
+
+  export const trademarkData = [
+    {
+        id: 1,
+        text: "be on stereo, don't be on here",
+        image: "../assets/trademark.svg"
+    },
+    {
+        id: 2,
+        text: "be on stereo, don't be on here",
+        image: "../assets/trademark.svg"
+    },
+    {
+        id: 3,
+        text: "be on stereo, don't be on here",
+        image: "../assets/trademark.svg"
+    },
+  ]

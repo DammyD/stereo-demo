@@ -1,0 +1,515 @@
+.about {
+    height: calc(100vh - 100px);
+    overflow-y: auto;
+  }
+
+  .about {
+    background: #e6ebf5;
+  }
+
+  .about-head h1 {
+    margin: 200px 0 30px 0;
+    font-size: 60px;
+    font-family: "chewy", system-ui;
+    text-align: center;
+    line-height: 60px;
+  }
+
+  .head-text p{
+    font-size: 24px;
+    font-family: "chewy", system-ui;
+    text-align: center;
+    line-height: 28px;
+    font-weight: 700;
+  }
+
+  .animated-images {
+    min-width: var(--min-width);
+    z-index: 1;
+    display: flex;
+    margin-top: 60px;
+    flex-direction: row;
+    align-items: center;
+    --direction: normal;
+    --duration: 20s;
+    --delay: 0s;
+    --iteration-count: infinite;
+    --amount: 100%;
+  
+    animation: scroll var(--duration) linear var(--delay) var(--iteration-count) var(--direction);
+    animation-play-state: running;
+    animation-delay: var(--delay);
+  }
+
+  .avatar-item {
+    flex: 0 0 auto;
+  }
+
+  .avatar-container .avatar {
+    display: block;
+    height: 100%;
+    object-fit: contain;
+    object-position: 50% 100%;
+    width: 100%;
+  }
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-1 * var(--amount)));
+    }
+  }
+
+  .stereo-download {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    padding: 20px;
+  }
+
+  .stereo-left p {
+    font-family: "chewy", system-ui;
+    font-size: 30px;
+    line-height: 18px;
+    font-weight: 700;
+    color: white;
+    margin-left: 60px;
+  }
+
+  .stereo-download .stereo-right {
+    text-align: center;
+    color: white;
+  }
+
+  .stereo-right-icon {
+    display: flex;
+    gap: 25px;
+  }
+  .stereo-download .stereo-right-icon .inner {
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 0px 5px;
+  }
+
+  .stereo-right-icon a {
+    color: white;
+    padding: 0;
+    margin: 0;
+  }
+
+  .stereo-icon {
+    display: flex;
+  }
+
+  .stereo-icon p{
+    margin: 10px 0 0 0;
+  }
+
+  .inner.btn p{
+    font-family: "chewy", system-ui;
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .inner.btn span {
+    font-family: "chewy", system-ui;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .icon { 
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.what-we-do {
+    background: #506cff;
+    height: 700px;
+  }
+
+  .what-we-do-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .about-left,
+.about-right {
+  flex: 1;
+}
+
+.about-left {
+  padding: 60px 0 0 0;
+  margin-left: 60px;
+}
+
+.about-left .block {
+    display: block;
+}
+
+ .posts {
+    transform: rotate(-2deg);
+    color: white;
+    font-size: 96px;
+    font-family: "chewy", system-ui;
+    line-height: 90px;
+    font-weight: 600;
+}
+
+.posts-others {
+    font-size: 96px;
+    font-family: "chewy", system-ui;
+    line-height: 90px;
+    font-weight: 600;
+}
+
+.block-content {
+    font-size: 28px;
+    font-family: "chewy", system-ui;
+    line-height: 30px;
+    font-weight: 600;
+    color:var(--white-color);
+}
+
+.about-right-video {
+    aspect-ratio: .5;
+    display: block;
+    height: 500px;
+    margin: 0 auto;
+    overflow: hidden;
+    pointer-events: none;
+    position: relative;
+}
+
+.about-right-video-play {
+    background-color: #fff;
+    border-radius: 2rem;
+    bottom: 2%;
+    left: 2%;
+    overflow: hidden;
+    pointer-events: none;
+    position: absolute;
+    right: 2%;
+    top: 2%;
+}
+
+.video-play {
+    height: 100%;
+    width: 100%;
+}
+
+.video-image {
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+/* Animated gifs */
+
+.animated-gifs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fff;
+    position: relative;
+    height: 500px;
+}
+
+.animate {
+    max-width: 900px;
+    width: 100%;
+}
+
+.animate {
+    font-size: 2.5rem;
+    letter-spacing: -.01em;
+    line-height: 1;
+    margin: 0 5px;
+}
+
+.animate-image {
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.animated-gifs h1 {
+    text-align: center;
+    font-family: "chewy", system-ui;
+    font-size: 96px;
+    font-weight: 600;
+    line-height: 90px;
+}
+
+.animation01 {
+    animation-delay: 5s;
+    animation-name: phone;
+    left: -30vmin;
+    top: 10%;
+}
+
+.animation02 {
+    animation-delay: 7s;
+    animation-name: lips;
+    bottom: 10%;
+    right: -30vmin;
+}
+
+.animation03 {
+    animation-delay: 9s;
+    animation-name: cat;
+    right: 30%;
+    top: 10%;
+}
+
+.animation04 {
+    animation-delay: 10s;
+    animation-name: thumbs-up;
+    bottom: 10%;
+    right: 25%;
+}
+
+.animation01,
+.animation02 {
+    animation-duration: 12s;
+    height: 30vmin;
+    width: 30vmin;
+}
+
+.animation03,
+.animation04 {
+    animation-duration: 8s;
+    height: 30vmin;
+    opacity: 0;
+    width: 30vmin;
+}
+
+.animate {
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: absolute;
+    transform-origin: 50% 50%;
+}
+@keyframes phone {
+   0% {
+        transform: translateX(0) rotate(0);
+    }
+    
+    40%, 100% {
+        transform: translateX(160vw) rotate(540deg);
+    }
+}
+
+@keyframes lips {
+    0% {
+        transform: translateX(0);
+    }
+    
+    40%, 100% {
+        transform: translateX(-160vw);
+    }
+}
+
+@keyframes cat {
+0% {
+    opacity: 0;
+    transform: rotate(-540deg) scale(0);
+}
+
+10%, 40% {
+    opacity: 1;
+    transform: rotate(0) scale(1);
+}
+
+45%, 100% {
+    opacity: 0;
+    transform: rotate(-540deg) scale(0);
+}
+}
+
+@keyframes thumbs-up{
+    0% {
+        opacity: 0;
+        transform: scale(0);
+    }
+    
+    10%, 40% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    45%, 100% {
+        opacity: 0;
+        transform: scale(0);
+    }   
+}
+
+.more-info {
+    background: #000;
+    color: white;
+    height: 500px;
+}
+
+.more-info-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 60px;
+}
+
+.more-info-flex-inner {
+    display: flex;
+}
+
+.more-info-flex-inner-content {
+    display: flex;
+    gap: 100px;
+    margin-top: 30px;
+}
+
+.video-play-info {
+    width: 300px;
+    height: 300px; 
+    margin-right: 100px;
+}
+
+.resources p {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "chewy",system-ui;
+    line-height: 24px;
+}
+
+.links-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+    color: #fff;
+    font-family: "chewy",system-ui;
+    font-size: 20px;
+    line-height: 18px;
+    font-weight: 600;
+}
+
+.scancode{
+    margin-top: 30px;
+}
+
+.scancode-image{
+    margin-top: 20px;
+}
+
+.scancode-text {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: var(--white-color);
+    font-size: 24px;
+    font-family: "chewy", system-ui;
+    font-weight: 700;
+    text-align: start;
+    margin: 0;
+
+}
+
+.mobile-tablet-menu-container-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .mobile-tablet-menu-container-footer .left {
+    gap: 20px;
+    margin-left: 60px;
+  }
+
+  .mobile-tablet-menu-container-footer .left p {
+    font-size: 20px;
+    font-family: "chewy", system-ui;
+    font-weight: 700;
+  }
+  
+  .mobile-tablet-menu-container-footer .right {
+    gap: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    padding-right: 30px;
+    font-family: "chewy", system-ui;
+  }
+
+  .animated-images-stereo-footer {
+    background :#a38cd4;
+    /* margin: 0; */
+  }
+
+  
+  .animated-images-footer {
+    min-width: var(--min-width);
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    --direction: normal;
+    --duration: 20s;
+    --delay: 0s;
+    --iteration-count: infinite;
+    --amount: 100%;
+  
+    animation: scroll var(--duration) linear var(--delay) var(--iteration-count) var(--direction);
+    animation-play-state: running;
+    animation-delay: var(--delay);
+  }
+
+  .avatar-item {
+    flex: 0 0 auto;
+  }
+
+  .avatar-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  .avatar-container-text {
+    font-size: 96px;
+    font-weight: 700;
+    font-family: "chewy", system-ui;
+    line-height: 90px;
+  }
+
+
+  .avatar-container .avatar-image {
+    display: block;
+    object-fit: contain;
+    object-position: 50% 100%;
+    margin-right: 30px;
+  }
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-1 * var(--amount)));
+    }
+  }
+
+
+  
+
+
+
+
+
+
+
+
+  
