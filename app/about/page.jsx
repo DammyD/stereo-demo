@@ -4,7 +4,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { avatarData, trademarkData } from '@/data'
 import { FaApple } from "react-icons/fa";
-import { animation01, animation02, animation03, animation04, googleplay, phoneframe, qrcode } from '@/public/assets';
+import { animation01, animation02, animation03, animation04, googleplay, phoneframe, qrcode, avatar1, avatar2, avatar3, avatar4, avatar5, avatar6, avatar7, avatar8, avatar9, avatar10, avatar11, avatar12, avatar13, avatar14, avatar15, avatar16, avatar17, avatar18, avatar19 } from '@/public/assets';
 import { FaInstagram, FaTiktok, FaTwitter } from "react-icons/fa";
 
 const About = () => {
@@ -24,15 +24,49 @@ const About = () => {
                     </div>
 
                     <div className="animated-images">
-                        {avatarData.map((avatar) => (
-                            <div key={avatar.id} className="avatar-item">
-                                <div className="avatar-container">
-                                    <span>
-                                        <Image className="avatar" src={`/assets/${avatar.image}`} alt="avatar" width={150} height={100} /></span>
-                                </div>
-
+                        <div className="avatar-item">
+                            <div className="avatar-container">
+                                <span>
+                                    <Image className="avatar" src={avatar1} alt="avatar" width={150} height={100} /></span>
+                                <span>
+                                    <Image className="avatar" src={avatar2} alt="avatar" width={150} height={100} /></span>
+                                <span>
+                                    <Image className="avatar" src={avatar3} alt="avatar" width={150} height={100} /></span>
+                                <span>
+                                    <Image className="avatar" src={avatar4} alt="avatar" width={150} height={100} /></span>
+                                <span>
+                                    <Image className="avatar" src={avatar5} alt="avatar" width={150} height={100} /></span>
+                                <span>
+                                    <Image className="avatar" src={avatar6} alt="avatar" width={150} height={100} /></span>
+                                <span>
+                                    <Image className="avatar" src={avatar7} alt="avatar" width={150} height={100} /></span>
+                                <span>
+                                    <Image className="avatar" src={avatar8} alt="avatar" width={150} height={100} /></span>
+                                <span>
+                                    <Image className="avatar" src={avatar9} alt="avatar" width={150} height={100} /></span>
+                                <span>
+                                    <Image className="avatar" src={avatar10} alt="avatar" width={150} height={100} /></span>
+                                <span>
+                                    <Image className="avatar" src={avatar11} alt="avatar" width={150} height={100} /></span>
+                                <span>
+                                    <Image className="avatar" src={avatar12} alt="avatar" width={150} height={100} /></span>
+                                <span>
+                                    <Image className="avatar" src={avatar13} alt="avatar" width={150} height={100} /></span>
+                                <span>
+                                    <Image className="avatar" src={avatar14} alt="avatar" width={150} height={100} /></span>
+                                <span>
+                                    <Image className="avatar" src={avatar15} alt="avatar" width={150} height={100} /></span>
+                                <span>
+                                    <Image className="avatar" src={avatar16} alt="avatar" width={150} height={100} /></span>
+                                <span>
+                                    <Image className="avatar" src={avatar17} alt="avatar" width={150} height={100} /></span>
+                                <span>
+                                    <Image className="avatar" src={avatar18} alt="avatar" width={150} height={100} /></span>
+                                <span>
+                                    <Image className="avatar" src={avatar19} alt="avatar" width={150} height={100} /></span>
                             </div>
-                        ))}
+
+                        </div>
                     </div>
                 </section>
 
@@ -137,7 +171,7 @@ const About = () => {
                                         <p>Resources</p>
                                     </div>
                                     <Link className="links-column" href={""}>FAQs</Link>
-                                    <Link className="links-column"  href={""}>Guidelines</Link>
+                                    <Link className="links-column" href={""}>Guidelines</Link>
                                     <Link className="links-column" href={""}>Privacy</Link>
                                     <Link className="links-column" href={""}>Terms</Link>
                                     <Link className="links-column" href={""}>Teens</Link>
@@ -159,7 +193,7 @@ const About = () => {
                             </div>
 
                             <div className="scancode-text">
-                                <span>Scan to download <br/> stereo</span>
+                                <span>Scan to download <br /> stereo</span>
                             </div>
                             <div className="stereo-download">
                                 <div className="stereo-right">
@@ -187,42 +221,42 @@ const About = () => {
                                     </div>
                                 </div>
                             </div>
-                        </div>               
+                        </div>
                     </div>
 
                     <div className="mobile-tablet-menu-container-footer">
-            <div className="mobile-tablet-menu-container-footer left">
-              <p>Follow Us</p>
-              <Link href={"#"}><FaTiktok size="35px" color="#fff"/></Link>
-              <Link href={"#"}><FaInstagram size="35px" color="#fff"/></Link>
-              <Link href={"#"}><FaTwitter size="35px" color="#fff"/></Link>
-            </div>
-            <div className="mobile-tablet-menu-container-footer right">
-              <span className="hide">English</span>
-              <span> &copy; Stereo, 2024</span>
-            </div>
-          </div>
+                        <div className="mobile-tablet-menu-container-footer left">
+                            <p>Follow Us</p>
+                            <Link href={"#"}><FaTiktok size="35px" color="#fff" /></Link>
+                            <Link href={"#"}><FaInstagram size="35px" color="#fff" /></Link>
+                            <Link href={"#"}><FaTwitter size="35px" color="#fff" /></Link>
+                        </div>
+                        <div className="mobile-tablet-menu-container-footer right">
+                            <span className="hide">English</span>
+                            <span> &copy; Stereo, 2024</span>
+                        </div>
+                    </div>
                 </div>
             </section>
 
             <section className="animated-images-stereo-footer">
                 <div>
                     <div>
-                    <div className="animated-images-footer">
-                        {trademarkData.map((trademark) => (
-                            <div key={trademark.id} className="avatar-item">
-                                <div className="avatar-container">
-                                    <div className="avatar-container-text">
-                                    <p>be on stereo, don&lsquo;t be on here</p>
+                        <div className="animated-images-footer">
+                            {trademarkData.map((trademark) => (
+                                <div key={trademark.id} className="avatar-item">
+                                    <div className="avatar-container">
+                                        <div className="avatar-container-text">
+                                            <p>be on stereo, don&lsquo;t be on here</p>
+                                        </div>
+                                        <span>
+                                            <Image className="avatar-image" src={`/assets/${trademark.image}`} alt="trademark" width={80} height={80} /></span>
                                     </div>
-                                    <span>
-                                        <Image className="avatar-image" src={`/assets/${trademark.image}`} alt="trademark" width={80} height={80} /></span>
-                                </div>
 
-                            </div>
-                        ))}
+                                </div>
+                            ))}
+                        </div>
                     </div>
-                  </div>
                 </div>
             </section>
         </div>
