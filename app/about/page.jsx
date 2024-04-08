@@ -28,7 +28,7 @@ const About = () => {
                             <div key={avatar.id} className="avatar-item">
                                 <div className="avatar-container">
                                     <span>
-                                        <Image className="avatar" src={`/assets/${avatar.image}`} width={150} height={100} /></span>
+                                        <Image className="avatar" src={`/assets/${avatar.image}`} alt="avatar" width={150} height={100} /></span>
                                 </div>
 
                             </div>
@@ -39,7 +39,7 @@ const About = () => {
 
                 <div className="stereo-download">
                     <div className="stereo-left">
-                        <p>Be on Stereo, don't be on here</p>
+                        <p>Be on Stereo, don&apos;t be on here</p>
                     </div>
                     <div className="stereo-right">
                         <div className="stereo-right-icon">
@@ -216,7 +216,7 @@ const About = () => {
                                     <p>be on stereo, don&lsquo;t be on here</p>
                                     </div>
                                     <span>
-                                        <Image className="avatar-image" src={`/assets/${trademark.image}`} width={80} height={80} /></span>
+                                        <Image className="avatar-image" src={`/assets/${trademark.image}`} alt="trademark" width={80} height={80} /></span>
                                 </div>
 
                             </div>
